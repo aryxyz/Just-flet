@@ -57,7 +57,6 @@ def main(page: ft.Page):
     # get information from database
 
     def save():
-        print("ali")
         taskText = []
         for item in taskViewItems:
             taskText.append([item.text, item.state])
