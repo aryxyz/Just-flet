@@ -101,15 +101,9 @@ def main(page: ft.Page):
         tasksView
     ])
 
-    def test():
-        print("hi")
+   
 
-    az = [Task(text="Do my Home work ------",color="#2c3e50"),
-          Task(text="Do my Home work ------", color="#2c3e50"),
-          Task(text="Do my Home work ------", color="#2c3e50"),
-          Task(text="Do my Home work ------", color="#2c3e50"),
-          Task(text="Do my Home work ------", color="#2c3e50"),
-          ]
+ 
 
 
 
