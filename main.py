@@ -91,7 +91,7 @@ def main(page: ft.Page):
         ),
         border_radius=10,
     )
-    inputText = ft.TextField(col=8, label="What do you do",border=ft.InputBorder.NONE,content_padding=20,border_color="#5499c7",max_length=67)
+    inputText = ft.TextField(col=8, label="Add your Task",border=ft.InputBorder.NONE,content_padding=20,border_color="#5499c7",max_length=67)
     appView = ft.Column(controls=[
         ft.ResponsiveRow([
             inputText,
